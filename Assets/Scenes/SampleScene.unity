@@ -1072,7 +1072,19 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1067342890}
+        m_TargetAssemblyTypeName: BrickGenerator, Assembly-CSharp
+        m_MethodName: ButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_LastHoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -1127,6 +1139,19 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1067342890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067342880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7736067164bb54dbbe85836a876309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brickPrefab: {fileID: 5581190003437370653, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
 --- !u!1 &1145444333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,7 +1566,6 @@ GameObject:
   - component: {fileID: 1670103346}
   - component: {fileID: 1670103341}
   - component: {fileID: 1670103340}
-  - component: {fileID: 1670103345}
   - component: {fileID: 1670103344}
   m_Layer: 0
   m_Name: RightHand Controller
@@ -1955,19 +1979,7 @@ MonoBehaviour:
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1670103345}
-        m_TargetAssemblyTypeName: BrickGenerator, Assembly-CSharp
-        m_MethodName: ButtonPress
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -2022,19 +2034,6 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
---- !u!114 &1670103345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670103338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f7736067164bb54dbbe85836a876309, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  brickPrefab: {fileID: 5581190003437370653, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
 --- !u!135 &1670103346
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2519,3 +2518,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba96e741a200f974f851f4b1a0b95e7a, type: 3}
+--- !u!1001 &7989699258245479856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.3127
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.78312725
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7208
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710653
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710707
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 231149191641604124, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5581190003437370653, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_Name
+      value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590416246802449947, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5fb342050f75e8040b73e2086d775a1c, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4db8faa1c6601c84187d5ad01ad6f071, type: 3}
