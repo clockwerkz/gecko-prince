@@ -11,7 +11,7 @@ public class BrickGenerator_VerticalStack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     
+     brickSpawnPoint.transform.position.Set(2.3127f, 0.7831272f, 0.3821f);
     }
 
     // Update is called once per frame
